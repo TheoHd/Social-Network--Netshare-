@@ -1,0 +1,1 @@
+SELECT surname, name FROM users AS u, friends AS f WHERE user_id1 = ? AND user_id2 = id_u AND status = 2 OR  user_id2 = id_u AND user_id1 = ? AND status = 2;
